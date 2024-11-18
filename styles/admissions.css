@@ -1,0 +1,49 @@
+.admissions {
+    background-image: url("../assets/Waiting-1.png");
+    height: 65vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position:relative;
+}
+
+.aboutContent {
+    flex: 2
+}
+.aboutContent h1 {
+    border-bottom : 1px solid #94a3b8;
+    
+}
+.aboutContent p {
+    padding-top: 2rem;
+    line-height: 2rem
+}
+
+.admission {
+  padding: 1.2rem;
+}
+.admissionImg img {
+  width: 100%;
+  height: 48vh;
+  object-fit: cover;
+}
+
+.admissionContent {
+  padding: 0.5rem 0 0 1rem;
+}
+.admissionContent h1 {
+  padding-bottom: 0.5rem;
+}
+.admissionContent p {
+  line-height: 2rem;
+}
+h2 {
+    padding: 1.5rem 0;
+}
+.apply  {
+padding: 1rem 2rem;
+border-radius: .5rem;
+border: none;
+margin: 1.5rem 0;
+background-color: #E9EEFF;
+color: #113BD1;
+}

@@ -1,0 +1,19 @@
+.bannerAbout {
+    background-image: url("../assets/gishushu_campus.jpg");
+    height: 65vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position:relative;
+}
+
+.aboutContent {
+    flex: 2
+}
+.aboutContent h1 {
+    border-bottom : 1px solid #94a3b8;
+    
+}
+.aboutContent p {
+    padding-top: 2rem;
+    line-height: 2rem
+}

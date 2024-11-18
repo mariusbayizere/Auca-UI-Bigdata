@@ -1,0 +1,269 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+     font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.container1 {
+    background-color:#e3e6e8;
+    display: flex;
+    /* align-items:center; */
+    flex-direction: column;
+    padding: 1.2rem;
+}
+.linksSocial {
+    background-color:#e3e6e8;
+    display: flex;
+    /* align-items:center; */
+    justify-content: space-between;
+}
+.links1 ul {
+    display: flex;
+    gap: 2rem
+}
+.links1 ul li, a{
+    text-decoration: none;
+    list-style: none;
+    color:#60a5fa
+}
+.links1 ul li,a:hover {
+    color: #e11d48
+}
+.socials1 .imgSocial  {
+    width: 2rem
+}
+
+.announcement {
+    align-self: center;
+}
+.announcement div {
+    display: flex;
+    align-items: center;
+    gap: 1rem
+}
+
+/* Header styles */
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    gap: 2rem;
+}
+.linksRegistration {
+    display: flex;
+    gap: 2rem
+}
+.linksRegistration a {
+    color: #94a3b8
+}
+.linksRegistration a:hover {
+    color: #dc2626
+}
+
+/* Hero Section styles */
+
+.hero {
+    border-top: 4px solid #ca8a04
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5rem 1.5rem;
+    background-color: #00447b
+}
+
+.linksDoc ul {
+    display:flex;
+    gap: 2rem
+}
+.linksDoc ul li,.linksDoc a {
+    color:#f1f5f9;
+    list-style: none
+}
+.linksDoc ul li ,a:hover{
+    color: #d97706
+} 
+
+.banner {
+    background-image: url("../assets/Campuses.png");
+    height: 65vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position:relative;
+}
+
+.bannerContent {
+    position: absolute;
+    bottom:  0;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    padding: 2rem
+}
+
+.bannerContent h2, .bannerContent h4 {
+    color: #fff;
+}
+.bannerContent button {
+    background-color: #1e40af;
+    color: #fff;
+    border: none;
+    border-radius: .25rem;
+    padding: 1rem 2rem
+}
+
+/* Categories section styles */
+
+.categories {
+    margin: 2rem;
+    display: flex;
+    gap: 2rem;
+    position:relative;
+}
+
+.category img {
+    width: 25rem;
+    height: 15rem;
+    object-fit:cover;
+}
+.category h1 {
+    position: absolute;
+    top: 0;
+     width: 25rem;
+    height: 100%;
+    background-color: rgba(0,0,0,.64);
+    text-align: center;
+    padding: 7rem 0 0 0 ;
+    color:#fff;
+}
+.category h1:hover {
+    position: absolute;
+    top: 0;
+     width: 25rem;
+    height: 100%;
+    background-color: rgba(0,0,0,.84);
+    text-align: center;
+    padding: 7rem 0 0 0 ;
+    color:#fff;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+/* Main styles */
+
+main {
+    display: flex;
+    gap: 1.5rem;
+    padding: 1rem
+}
+.welcome img {
+    margin-top: 2rem;
+    width: 50vw;
+}
+.welcome h3 { 
+    text-align: center;
+    padding-bottom : .2rem;
+    border-bottom: 1px solid #cbd5e1;
+}
+.followUs {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    border: 1px solid #cbd5e1;
+    padding: .25rem
+}
+.followUs h1 {
+    border-bottom: 1px solid #cbd5e1;
+}
+.followUs_icons img{
+width: 3rem
+}
+
+.announcements {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: #e3e6e8;
+    padding:1rem
+}
+.announcements div {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem
+}
+
+/* Footer Styles */
+
+footer {
+    margin : 4rem 0 0 0 ;
+}
+.row1 {
+    background-color: #00447b;
+    border-top: 4px solid #d97706;
+    padding : 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* align-items:center; */
+}
+
+.footerLeft {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footerLeft h2 {
+    color: #fff;
+}
+.footerLeft div h2 {
+    color: #cbd5e1
+}
+.footerLeft div h4 ,h5{
+    color: #cbd5e1
+}
+.footerRight {
+display: flex;
+    flex-direction: column;
+    gap: 2rem
+}
+.footerMiddle h2 {
+    color: #fff;
+}
+.footerMiddle {
+display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.2rem
+}
+.footerMiddle div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem
+}
+.footerMiddle div img {
+    width: 2rem;
+    border-radius: 5PX;
+}
+.footerMiddle div span {
+    color: #fff;
+}
+.footerRight h2 {
+    color: #fff;
+}
+.footerRight img {
+    width: 25vw;
+}
+.row2 {
+    padding: 2rem;
+    background-color: #ddc573;
+    color: #334155;
+    text-align: center;
+}

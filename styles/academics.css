@@ -1,0 +1,28 @@
+.academics img{
+    /* height: 65vh; */
+    width: 100%;
+object-fit: cover;
+    /* position:relative; */
+}
+.academicsContent {
+    display: flex;
+    flex-direction: column
+}
+.academicsContent .row1Academics{
+    display: flex;
+}
+.aboutContent {
+    flex: 2
+}
+.aboutContent h1 {
+    border-bottom : 1px solid #94a3b8;
+    
+}
+.aboutContent p {
+    padding-top: 2rem;
+    line-height: 2rem
+}
+.admissionContent {
+    padding: 1rem;
+    background-color: #f8fafc;
+}
